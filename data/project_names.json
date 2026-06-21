@@ -1,0 +1,50 @@
+[
+  {
+    "id": "Detailed-Movement-Reworked",
+    "title": "Detailed Movement Reworked",
+    "author": "AzrulPlayz",
+    "status": "Early Access",
+    "short_description": "# Detailed Movement v1.3.0\n\nTired of Mine...",
+    "description": "# Detailed Movement v1.3.0\n\nTired of Minecraft's stiff default animations? Detailed Movement completely transforms your player with smooth, realistic, and highly detailed animations for both first-person and third-person view.\n\n✨ Features\n- 🏃 Detailed movement animations (walk, sprint, sneak, jump, fall, land)\n- ⚔️ Combat system (attack, spin, throw, trident, spear)\n- 🏹 Bow & crossbow animations (charge, hold, shoot)\n- 🛡️ Shield block animations (first-person)\n- 🌊 Swimming & climbing animations\n- 🪂 Elytra flying animations\n- 🔄 Smooth item swap animations\n- 🍖 Eating animations\n- 🛡️ Armor visual support\n\n📋 Requirements\n- Minecraft Bedrock Edition 1.26.20+\n- Resource Pack only — no behavior pack needed!\n\n📱 Compatibility\n- ✅ Android / iOS\n- ✅ Windows 10/11",
+    "image": "images/1/pack_icon.png",
+    "category": "TexturePack Animations",
+    "version": "v1.3",
+    "minecraft_version": "1.26.20+",
+    "updated": "Jun 13, 2026",
+    "price": "Rp 10.000",
+    "file_name": "Detailed_Movement_Reworked.mcpack", 
+    "download_url": "https://discord.com/users/azrulplayz"
+  },
+  {
+    "id": "Detailed-Movement-1.2",
+    "title": "Detailed Movement 1.2",
+    "author": "AzrulPlayz",
+    "status": "release",
+    "short_description": "# Detailed Movement v1.2.0\n\nTired of Mine...",
+    "description": "# Detailed Movement v1.2.0\n\nTired of Minecraft's stiff default animations? Detailed Movement completely transforms your player with smooth, realistic, and highly detailed animations for both first-person and third-person view.\n\n✨ Features\n- 🏃 Detailed movement animations (walk, sprint, sneak, jump, fall, land)\n- ⚔️ Combat system (attack, spin, throw, trident, spear)\n- 🏹 Bow & crossbow animations (charge, hold, shoot)\n- 🛡️ Shield block animations (first-person)\n- 🌊 Swimming & climbing animations\n- 🪂 Elytra flying animations\n- 🔄 Smooth item swap animations\n- 🍖 Eating animations\n- 🛡️ Armor visual support\n\n📋 Requirements\n- Minecraft Bedrock Edition 1.26.0+\n- Resource Pack only — no behavior pack needed!\n\n📱 Compatibility\n- ✅ Android / iOS\n- ✅ Windows 10/11",
+    "image": "images/2/pack_icon.png",
+    "category": "TexturePack Animations",
+    "version": "v1.2",
+    "minecraft_version": "1.26.20+",
+    "updated": "Jun 13, 2026",
+    "price": "Free",
+    "file_name": "Detailed_Movement_Reworked.mcpack", 
+    "download_url": "https://www.mediafire.com/file/rqnw6p42k2fqj6p/Detailed_Movement_v1.2.mcpack/file"
+  },
+  {
+    "id": "Detailed-Movement-1.1",
+    "title": "Detailed Movement 1.1",
+    "author": "AzrulPlayz",
+    "status": "release",
+    "short_description": "# Detailed Movement v1.1.0\n\nTired of Mine...",
+    "description": "# Detailed Movement v1.1.0\n\nTired of Minecraft's stiff default animations? Detailed Movement completely transforms your player with smooth, realistic, and highly detailed animations for both first-person and third-person view.\n\n✨ Features\n- 🏃 Detailed movement animations (walk, sprint, sneak, jump, fall, land)\n- ⚔️ Combat system (attack, spin, throw, trident, spear)\n- 🏹 Bow & crossbow animations (charge, hold, shoot)\n- 🛡️ Shield block animations (first-person)\n- 🌊 Swimming & climbing animations\n- 🪂 Elytra flying animations\n- 🔄 Smooth item swap animations\n- 🍖 Eating animations\n- 🛡️ Armor visual support\n\n📋 Requirements\n- Minecraft Bedrock Edition 1.26.0+\n- Resource Pack only — no behavior pack needed!\n\n📱 Compatibility\n- ✅ Android / iOS\n- ✅ Windows 10/11",
+    "image": "images/3/pack_icon.png",
+    "category": "TexturePack Animations",
+    "version": "v1.1",
+    "minecraft_version": "1.26.20+",
+    "updated": "Jun 13, 2026",
+    "price": "Free",
+    "file_name": "Detailed_Movement_Reworked.mcpack", 
+    "download_url": "https://www.mediafire.com/file/rqnw6p42k2fqj6p/Detailed_Movement_v1.2.mcpack/file"
+  }
+]
