@@ -1,0 +1,411 @@
+:root {
+  --bg-main: #0b0f19;
+  --bg-card: #111827;
+  --bg-hover: #1e293b;
+  --text-main: #ffffff;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  --accent: #38bdf8;
+  --accent-hover: #0ea5e9;
+  --success: #4ade80;
+  --border-color: #1e293b;
+  --radius-lg: 12px;
+  --radius-md: 8px;
+  --transition: all 0.2s ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg-main);
+  color: var(--text-main);
+  /* Menerapkan font Product Sans secara menyeluruh */
+  font-family: 'Product Sans', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+}
+
+/* Header & Navigasi */
+.header {
+  text-align: center;
+  padding: 24px 16px 12px 16px;
+}
+
+/* Mengatur Ukuran Gambar Logo Baru Agar Pas di Tengah */
+.logo-img {
+  display: inline-block;
+  max-width: 100%;       
+  height: 52px;          
+  width: auto;           
+  cursor: pointer;
+  margin-bottom: 4px;
+  transition: var(--transition);
+}
+
+.logo-img:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: #cbd5e1;
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  /* Navigasi dibuat semi-bold agar tegas */
+  font-family: 'Product Sans Bold', 'Product Sans', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.nav-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.nav-btn.active {
+  background: var(--bg-hover);
+  color: var(--text-main);
+}
+
+.breadcrumbs {
+  color: var(--text-dim);
+  font-size: 13px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.breadcrumbs .crumb-btn {
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.breadcrumbs .crumb-btn:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+/* PERBAIKAN JUDUL: Otomatis pakai Product Sans Bold tebal rata kiri */
+h1, .cf-title {
+  font-family: 'Product Sans Bold', 'Product Sans', sans-serif;
+  text-align: left;       
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-top: 8px;
+  padding-left: 4px;      
+}
+
+/* Container Utama */
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 16px 40px;
+}
+
+/* Mod Card Beranda */
+.mod-card {
+  display: flex;
+  gap: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  margin: 14px 0;
+  cursor: pointer;
+  text-align: left;
+  transition: var(--transition);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.mod-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(56, 189, 248, 0.1);
+}
+
+.thumb {
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  background: var(--bg-hover);
+  object-fit: cover;
+}
+
+/* Mengatur ketebalan nama mod di beranda */
+.mod-card b {
+  font-family: 'Product Sans Bold', 'Product Sans', sans-serif;
+  font-weight: 700;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #e2e8f0;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.small-price {
+  font-family: 'Product Sans Bold', 'Product Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* --- Mini Status Badge --- */
+.status-badge-mini {
+  font-family: 'Product Sans Bold', 'Product Sans', sans-serif;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* --- Warna Status --- */
+.status-release { border: 1px solid #22c55e; color: #22c55e; }
+.status-alpha { border: 1px solid #ef4444; color: #ef4444; }
+.status-beta { border: 1px solid #eab308; color: #eab308; }
+.status-early { 
+  border: 1px solid #eab308; 
+  color: #fbbf24; 
+  background: rgba(234, 179, 8, 0.08); 
+}
+
+/* --- Detail Layout CurseForge Mobile --- */
+.cf-mobile-header {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 12px 4px;
+  text-align: left;
+}
+
+.cf-mod-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  background: var(--bg-hover);
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cf-header-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.cf-title {
+  font-size: 22px;
+  line-height: 1.2;
+  color: var(--text-main);
+}
+
+.cf-status-badge {
+  font-family: 'Product Sans Bold', 'Product Sans', sans-serif;
+  display: inline-block;
+  align-self: flex-start;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cf-author-row {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.cf-author-name {
+  color: #cbd5e1;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 13px;
+}
+
+.cf-summary-box {
+  margin-top: 16px;
+  padding: 0 4px;
+  text-align: left;
+}
+
+.cf-short-desc {
+  font-size: 15px;
+  color: #94a3b8;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.cf-stats-row {
+  display: flex;
+  gap: 32px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 16px;
+}
+
+.cf-stats-label {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-bottom: 2px;
+}
+
+.cf-stats-value {
+  font-family: 'Product Sans Bold', 'Product Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.cf-action-bar {
+  margin: 16px 0;
+}
+
+/* Tombol Install vs Buy */
+.cf-main-download-btn {
+  font-family: 'Product Sans Bold', 'Product Sans', sans-serif;
+  display: block;
+  width: 100%;
+  padding: 14px;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  transition: transform 0.15s ease, opacity 0.2s ease;
+}
+
+.cf-main-download-btn:active {
+  transform: scale(0.99);
+}
+
+.free-btn {
+  background: #e05e2b; 
+  color: #ffffff;
+}
+.free-btn:hover { background: #c2471b; }
+
+.buy-btn {
+  background: linear-gradient(135deg, #ca8a04 0%, #eab308 100%); 
+  color: #000000;
+  box-shadow: 0 4px 12px rgba(234, 179, 8, 0.2);
+}
+.buy-btn:hover { opacity: 0.95; }
+
+/* Tab Controller */
+.tab-switch {
+  display: flex;
+  border-bottom: 2px solid var(--border-color);
+  margin-top: 4px;
+}
+
+.tab {
+  font-family: 'Product Sans Bold', 'Product Sans', sans-serif;
+  flex: 1;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-size: 15px;
+  transition: var(--transition);
+}
+
+.tab:hover { color: var(--text-main); }
+
+.tab.active {
+  color: #ffffff;
+  border-bottom: 3px solid #e05e2b;
+  margin-bottom: -2px; 
+}
+
+.cf-tab-body {
+  padding-top: 20px;
+  text-align: left;
+}
+
+.cf-full-description {
+  color: #cbd5e1;
+  line-height: 1.6;
+  font-size: 15px;
+  white-space: pre-wrap;    
+  word-break: break-word;   
+}
+
+.info-box {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 14px;
+}
+
+.row:last-child { border-bottom: none; }
+
+.help-btn {
+  font-family: 'Product Sans Bold', 'Product Sans', sans-serif;
+  display: block;
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: center;
+  background: var(--bg-card);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+  margin-top: 14px;
+}
+
+.help-btn:hover { background: var(--bg-hover); }
+
+.green { color: var(--success); font-weight: 600; }
+.gold { color: #f59e0b; font-weight: 600; }
+.small { color: var(--text-muted); font-size: 13px; }
+
+/* --- SEKSI STYLING MAIN FOOTER --- */
+.main-footer {
+  text-align: center;
+  padding: 32px 16px;
+  margin-top: 40px;
+  border-top: 1px solid var(--border-color);
+  background: var(--bg-card);
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.footer-sub {
+  color: var(--text-dim);
+  font-size: 11px;
+  margin-top: 6px;
+}

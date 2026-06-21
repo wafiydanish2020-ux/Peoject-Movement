@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Movement</title>
+  
+  <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="header">
+    <img src="images/logo.png" alt="Project Movement Logo" class="logo-img" id="homeBtn">
+    
+    <div class="nav">
+      <button class="nav-btn active">Browse</button>
+      <button class="nav-btn">Discord</button>
+      <button class="nav-btn">YouTube</button>
+    </div>
+
+    <div class="breadcrumbs">
+      <span class="crumb-btn" id="crumbHome">Home</span>
+      <span id="crumbBrowseContainer"> › <span class="crumb-btn" id="crumbBrowse">Browse</span></span>
+      <span id="dynamicCrumb"></span>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="app"></div>
+  </div>
+
+  <footer class="main-footer">
+    <p>&copy; 2026 CraftPlayz Studio. All rights reserved.</p>
+    <p class="footer-sub">This is the official website for the Detailed Movement Texture Pack animations</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
