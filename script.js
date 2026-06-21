@@ -8,7 +8,7 @@ const MENU_YOUTUBE_LINK = "https://youtube.com/@AzrulPlayz";
 
 // === DAFTAR LINK DISCORD STAFF CADANGAN (BISA DITAMBAHIN SENDIRI) ===
 const STAFF_LINKS = [
-  "https://discord.com/users/ID_STAFF_1_KAMU",
+  "https://discord.com/users/1458584085827158286",
   "https://discord.com/users/ID_STAFF_2_KAMU",
   "https://discord.com/users/ID_STAFF_3_KAMU"
 ];
